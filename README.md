@@ -1,4 +1,4 @@
-# Snappy Chat
+# Snappy Chat (Client)
 
 ## Technologies
 
@@ -7,3 +7,4 @@
 - Express
 - Socket.io
 - MongoDB
+- Styled Components
