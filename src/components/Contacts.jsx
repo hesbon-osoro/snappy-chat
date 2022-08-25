@@ -30,7 +30,7 @@ const Contacts = ({ contacts, changeChat }) => {
 						<h3>Snappy</h3>
 					</div>
 					<div className="contacts">
-						{Contacts.map((contact, index) => {
+						{contacts.map((contact, index) => {
 							return (
 								<div
 									key={contact._id}
