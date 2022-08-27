@@ -58,11 +58,13 @@ const SetAvatar = () => {
 		(async () => {
 			const data = [];
 			for (let i = 0; i < 4; i++) {
-				axios.defaults.headers.get['Content-Type'] =
-					'application/json;charset=utf-8';
-				axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*';
 				const image = await axios.get(
-					`${api}/${Math.round(Math.random() * 1000)}`
+					`${api}/${Math.round(Math.random() * 1000)}`,
+					{
+						headers: {
+							'Access-Control-Allow-Origin': '*',
+						},
+					}
 				);
 				const buffer = new Buffer(image.data);
 				data.push(buffer.toString('base64'));
