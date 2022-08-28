@@ -8,3 +8,5 @@
 - Socket.io
 - MongoDB
 - Styled Components
+
+The Client is deployed by [`Netlify`](https://www.netlify.com/)
