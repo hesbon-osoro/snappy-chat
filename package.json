@@ -2,6 +2,8 @@
 	"name": "snappy-chat",
 	"version": "0.1.0",
 	"private": true,
+	"proxy": "https://api.multiavatar.com",
+	"homepage": "https://snappychat.netlify.app/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.14.1",
 		"@testing-library/react": "^13.0.0",
@@ -9,6 +11,7 @@
 		"axios": "^0.27.2",
 		"buffer": "^6.0.3",
 		"emoji-picker-react": "^3.6.1",
+		"http-proxy-middleware": "^2.0.6",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^4.4.0",
